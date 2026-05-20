@@ -184,7 +184,7 @@ def api_change_password():
 @app.route("/")
 def index():
     """提供主頁面"""
-    return send_from_directory("static", "index.html")
+    return send_from_directory("static","index.html")
 
 
 @app.route("/<path:filename>")
